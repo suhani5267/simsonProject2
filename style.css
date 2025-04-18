@@ -18,6 +18,7 @@ h2 {
   grid-template-columns: repeat(2, 150px);
   grid-gap: 20px;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -34,6 +35,13 @@ h2 {
 .red { background-color: red; }
 .green { background-color: green; }
 .blue { background-color: blue; }
+
+#start{
+    padding: 7px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
 
 .flash {
   opacity: 1;
