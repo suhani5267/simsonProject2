@@ -69,7 +69,7 @@ function userFlash(btn) {
      PlaySound()
   setTimeout(() => {
     btn.classList.remove("userflash");
-  }, flashDuration);
+  },flashDuration);
 }
 
 function checkAns(index) {
